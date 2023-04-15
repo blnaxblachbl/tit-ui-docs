@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-gh-pages/static/js/main.4c19e0ca.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.4c19e0ca.js.map": "/react-gh-pages/static/js/main.4c19e0ca.js.map"
+    "main.js": "/tit-ui-docs/static/js/main.9141c64f.js",
+    "index.html": "/tit-ui-docs/index.html",
+    "main.9141c64f.js.map": "/tit-ui-docs/static/js/main.9141c64f.js.map"
   },
   "entrypoints": [
-    "static/js/main.4c19e0ca.js"
+    "static/js/main.9141c64f.js"
   ]
 }

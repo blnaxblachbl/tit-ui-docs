@@ -26,21 +26,21 @@ const Container = styled.div`
 
 const Button = styled.div<ButtonProps>`
   width: 100%;
-  padding: 12px;
+  padding: 12px 24px;
   box-sizing: border-box;
   color: #000;
-  background-color: ${({ selected }) => (selected ? "#262c36" : undefined)};
+  background-color: ${({ selected }) => (selected ? "#282c34" : undefined)};
   color: ${({ selected }) => (selected ? "#fff" : undefined)};
 `;
 
 export const Manu = () => {
-  const page = window.location.pathname;
+  const page = window.location.pathname.replace("/tit-ui-docs", "");
 
   return (
     <Container>
       <div className="subtitle">General</div>
       <Link to="/">
-        <Button selected={page === "/"}>Introduction</Button>
+        <Button selected={page === ""}>Introduction</Button>
       </Link>
       <Link to="/instalation">
         <Button selected={page === "/instalation"}>Instalation</Button>
@@ -50,7 +50,7 @@ export const Manu = () => {
         <Button selected={page === "/provider"}>Provider</Button>
       </Link>
       <Link to="/form">
-        <Button selected={page === "/form"}>Form</Button>
+        <Button selected={page.includes("/form")}>Form</Button>
       </Link>
       <Link to="/avatar">
         <Button selected={page === "/avatar"}>Avatar</Button>
@@ -87,6 +87,13 @@ export const Manu = () => {
       </Link>
       <Link to="/toast">
         <Button selected={page === "/toast"}>Toast</Button>
+      </Link>
+      <div className="subtitle">Functions</div>
+      <Link to="/hex-to-rgba">
+        <Button selected={page === "/hex-to-rgba"}>Hex to RGBA</Button>
+      </Link>
+      <Link to="/normalize">
+        <Button selected={page === "/normalize"}>Noramalize</Button>
       </Link>
     </Container>
   );

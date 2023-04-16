@@ -14,6 +14,15 @@ import BadgePage from "./pages/badge";
 import ButtonPage from "./pages/button";
 import FlatListPage from "./pages/flatList";
 import ImagePage from "./pages/image";
+import InputPage from "./pages/input";
+import PickerPage from "./pages/picker";
+import RadioPage from "./pages/radio";
+import SliderPage from "./pages/slider";
+import SwitchPage from "./pages/switch";
+import TagPage from "./pages/tag";
+import ToastPage from "./pages/toast";
+import HexToRgbaPage from "./pages/hexToRgba";
+import NormalizePage from "./pages/normalize";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -100,6 +109,78 @@ root.render(
           element={
             <Layout>
               <ImagePage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/input"
+          element={
+            <Layout>
+              <InputPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/picker"
+          element={
+            <Layout>
+              <PickerPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/radio-button"
+          element={
+            <Layout>
+              <RadioPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/slider"
+          element={
+            <Layout>
+              <SliderPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/switch"
+          element={
+            <Layout>
+              <SwitchPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/tag"
+          element={
+            <Layout>
+              <TagPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/toast"
+          element={
+            <Layout>
+              <ToastPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/hex-to-rgba"
+          element={
+            <Layout>
+              <HexToRgbaPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/normalize"
+          element={
+            <Layout>
+              <NormalizePage />
             </Layout>
           }
         />

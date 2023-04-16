@@ -6,11 +6,12 @@ import { LayoutProps } from "./types";
 const Container = styled.div`
   display: flex;
   padding: 12;
+  box-sizing: border-box;
   .left {
-    width: 17%;
+    width: 18%;
   }
   .right {
-    width: 83%;
+    width: 82%;
     overflow-y: scroll;
     height: calc(100vh - 70px);
   }

@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/tit-ui-docs">
       <Header />
       <Routes>
         <Route

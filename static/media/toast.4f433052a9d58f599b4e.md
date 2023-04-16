@@ -115,30 +115,42 @@ const initValue = {
   name: "",
 } as GlodalState;
 
+const themes = {
+  mySuccess: {
+    style: {
+      backgroundColor: "#1fb141",
+      elevation: 0,
+      borderWidth: 0,
+    },
+    textStyle: {
+      color: "white",
+    },
+    titleStyle: {
+      color: "white",
+    },
+  },
+  myError: {
+    style: {
+      backgroundColor: "red",
+      elevation: 0,
+      borderWidth: 0,
+    },
+    titleStyle: {
+      color: "white",
+    },
+    textStyle: {
+      color: "white",
+    },
+  },
+} as const
+
 return (
   <Provider<GlodalState> initValue={initValue}>
     <App />
     <Toast
       maxToShow={4}
       duration={2000}
-      themes={{mySuccess: {
-          style: {
-            backgroundColor: "#1fb141",
-            elevation: 0,
-            borderWidth: 0,
-          },
-          textStyle: {color: "white"},
-          titleStyle: {color: "white"},
-        },
-        myError: {
-          style: {
-            backgroundColor: "red",
-            elevation: 0,
-            borderWidth: 0,
-          },
-          titleStyle: {color: "white"},
-          textStyle: {color: "white"},
-      }}}
+      themes={themes}
     />
   </Provider>
 );

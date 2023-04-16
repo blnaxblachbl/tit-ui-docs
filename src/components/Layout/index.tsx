@@ -7,10 +7,10 @@ const Container = styled.div`
   display: flex;
   padding: 12;
   .left {
-    width: 15%;
+    width: 17%;
   }
   .right {
-    width: 85%;
+    width: 83%;
     overflow-y: scroll;
     height: calc(100vh - 70px);
   }

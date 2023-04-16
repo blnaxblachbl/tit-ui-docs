@@ -9,6 +9,11 @@ import InstalationPage from "./pages/instalation";
 import ProviderPage from "./pages/provider";
 import FormPage from "./pages/form";
 import FormCustomItemPage from "./pages/form/custom-item";
+import AvatarPage from "./pages/avatar";
+import BadgePage from "./pages/badge";
+import ButtonPage from "./pages/button";
+import FlatListPage from "./pages/flatList";
+import ImagePage from "./pages/image";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -55,6 +60,46 @@ root.render(
           element={
             <Layout>
               <FormCustomItemPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/avatar"
+          element={
+            <Layout>
+              <AvatarPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/badge"
+          element={
+            <Layout>
+              <BadgePage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/button"
+          element={
+            <Layout>
+              <ButtonPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/flatlist"
+          element={
+            <Layout>
+              <FlatListPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/image"
+          element={
+            <Layout>
+              <ImagePage />
             </Layout>
           }
         />

@@ -5,13 +5,14 @@ import { LayoutProps } from "./types";
 
 const Container = styled.div`
   display: flex;
-  justify-content: space-between;
   padding: 12;
   .left {
     width: 15%;
   }
   .right {
     width: 85%;
+    overflow-y: scroll;
+    height: calc(100vh - 70px);
   }
 `;
 

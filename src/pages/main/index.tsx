@@ -5,15 +5,17 @@ const Container = styled.div`
   box-sizing: border-box;
   line-height: 24px;
   text-align: justify;
-  font-size: 14px;
-  max-width: 1200px;
-  margin-right: auto;
+  max-width: 800px;
 `;
 
 const MainPage = () => {
   return (
     <Container>
       <h1>Welcome to the TIT-UI lib!</h1>
+      <p>
+        tit-ui is a simple library that contains a set of UI components,
+        functions and Form creating functionality.
+      </p>
       <span>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever

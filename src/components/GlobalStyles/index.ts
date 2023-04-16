@@ -6,5 +6,6 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
   }
 `;

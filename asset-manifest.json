@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/tit-ui-docs/static/js/main.a88aca76.js",
+    "main.js": "/tit-ui-docs/static/js/main.d9279ebd.js",
     "static/media/form.md": "/tit-ui-docs/static/media/form.6dc9a46fdbaa6505800e.md",
     "static/media/custom-item.md": "/tit-ui-docs/static/media/custom-item.3ffe060aa4c812e4b8d8.md",
     "static/media/avatar.md": "/tit-ui-docs/static/media/avatar.5a2635c72bbe6c1562cb.md",
@@ -11,9 +11,9 @@
     "static/media/badge.md": "/tit-ui-docs/static/media/badge.37950fa6ed9dee0e7349.md",
     "static/media/button.md": "/tit-ui-docs/static/media/button.fceaf01cfdbc754ec6d8.md",
     "static/media/instalation.md": "/tit-ui-docs/static/media/instalation.8bf8fcf4d6054333e7d4.md",
-    "main.a88aca76.js.map": "/tit-ui-docs/static/js/main.a88aca76.js.map"
+    "main.d9279ebd.js.map": "/tit-ui-docs/static/js/main.d9279ebd.js.map"
   },
   "entrypoints": [
-    "static/js/main.a88aca76.js"
+    "static/js/main.d9279ebd.js"
   ]
 }

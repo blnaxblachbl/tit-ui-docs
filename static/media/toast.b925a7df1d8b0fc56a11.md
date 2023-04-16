@@ -128,12 +128,8 @@ return (
             elevation: 0,
             borderWidth: 0,
           },
-          textStyle: {
-            color: "white",
-          },
-          titleStyle: {
-            color: "white",
-          },
+          textStyle: {color: "white"},
+          titleStyle: {color: "white"},
         },
         myError: {
           style: {
@@ -141,12 +137,8 @@ return (
             elevation: 0,
             borderWidth: 0,
           },
-          titleStyle: {
-            color: "white",
-          },
-          textStyle: {
-            color: "white",
-          },
+          titleStyle: {color: "white"},
+          textStyle: {color: "white"},
         },
       }}
     />

@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/tit-ui-docs/static/js/main.0f279808.js",
+    "main.css": "/tit-ui-docs/static/css/main.9a29f72c.css",
+    "main.js": "/tit-ui-docs/static/js/main.7a456a57.js",
     "static/media/toast.md": "/tit-ui-docs/static/media/toast.a5556f8f0203c9cfa9a9.md",
     "static/media/form.md": "/tit-ui-docs/static/media/form.3e5acd180aa864502fc7.md",
     "static/media/picker.md": "/tit-ui-docs/static/media/picker.97ac46e5c76d303af747.md",
@@ -20,9 +21,11 @@
     "static/media/normalize.md": "/tit-ui-docs/static/media/normalize.ebde6904104b9042726f.md",
     "static/media/hexToRgba.md": "/tit-ui-docs/static/media/hexToRgba.2fea20d56f27e2628db6.md",
     "static/media/instalation.md": "/tit-ui-docs/static/media/instalation.9196e6cb34fd60d4630c.md",
-    "main.0f279808.js.map": "/tit-ui-docs/static/js/main.0f279808.js.map"
+    "main.9a29f72c.css.map": "/tit-ui-docs/static/css/main.9a29f72c.css.map",
+    "main.7a456a57.js.map": "/tit-ui-docs/static/js/main.7a456a57.js.map"
   },
   "entrypoints": [
-    "static/js/main.0f279808.js"
+    "static/css/main.9a29f72c.css",
+    "static/js/main.7a456a57.js"
   ]
 }

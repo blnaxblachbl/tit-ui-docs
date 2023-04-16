@@ -24,6 +24,8 @@ import ToastPage from "./pages/toast";
 import HexToRgbaPage from "./pages/hexToRgba";
 import NormalizePage from "./pages/normalize";
 
+import "react-modern-drawer/dist/index.css";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );

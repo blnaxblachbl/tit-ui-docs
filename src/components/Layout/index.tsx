@@ -9,11 +9,21 @@ const Container = styled.div`
   box-sizing: border-box;
   .left {
     width: 18%;
+    overflow-y: scroll;
+    height: calc(100vh - 70px);
   }
   .right {
     width: 82%;
     overflow-y: scroll;
     height: calc(100vh - 70px);
+  }
+  @media (max-width: 1000px) {
+    .left {
+      display: none;
+    }
+    .right {
+      width: 100%;
+    }
   }
 `;
 

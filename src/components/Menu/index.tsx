@@ -1,14 +1,12 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import { ButtonProps } from "./types";
+import { ButtonProps, MenuProps } from "./types";
 
 const Container = styled.div`
-  height: calc(100vh - 70px);
   padding: 12px 0;
   background-color: whitesmoke;
   box-sizing: border-box;
-  overflow-y: scroll;
 
   a {
     text-decoration: none;
@@ -33,67 +31,103 @@ const Button = styled.div<ButtonProps>`
   color: ${({ selected }) => (selected ? "#fff" : undefined)};
 `;
 
-export const Manu = () => {
+export const Manu = ({ toggleDrawer }: MenuProps) => {
   const page = window.location.pathname.replace("/tit-ui-docs", "");
 
   return (
     <Container>
       <div className="subtitle">General</div>
       <Link to="/">
-        <Button selected={page === ""}>Introduction</Button>
+        <Button onClick={toggleDrawer} selected={page === ""}>
+          Introduction
+        </Button>
       </Link>
       <Link to="/instalation">
-        <Button selected={page === "/instalation"}>Instalation</Button>
+        <Button onClick={toggleDrawer} selected={page === "/instalation"}>
+          Instalation
+        </Button>
       </Link>
       <div className="subtitle">Components</div>
       <Link to="/provider">
-        <Button selected={page === "/provider"}>Provider</Button>
+        <Button onClick={toggleDrawer} selected={page === "/provider"}>
+          Provider
+        </Button>
       </Link>
       <Link to="/form">
-        <Button selected={page.includes("/form")}>Form</Button>
+        <Button onClick={toggleDrawer} selected={page.includes("/form")}>
+          Form
+        </Button>
       </Link>
       <Link to="/avatar">
-        <Button selected={page === "/avatar"}>Avatar</Button>
+        <Button onClick={toggleDrawer} selected={page === "/avatar"}>
+          Avatar
+        </Button>
       </Link>
       <Link to="/badge">
-        <Button selected={page === "/badge"}>Badge</Button>
+        <Button onClick={toggleDrawer} selected={page === "/badge"}>
+          Badge
+        </Button>
       </Link>
       <Link to="/button">
-        <Button selected={page === "/button"}>Button</Button>
+        <Button onClick={toggleDrawer} selected={page === "/button"}>
+          Button
+        </Button>
       </Link>
       <Link to="/flatlist">
-        <Button selected={page === "/flatlist"}>FlatList</Button>
+        <Button onClick={toggleDrawer} selected={page === "/flatlist"}>
+          FlatList
+        </Button>
       </Link>
       <Link to="/image">
-        <Button selected={page === "/image"}>Image</Button>
+        <Button onClick={toggleDrawer} selected={page === "/image"}>
+          Image
+        </Button>
       </Link>
       <Link to="/input">
-        <Button selected={page === "/input"}>Input</Button>
+        <Button onClick={toggleDrawer} selected={page === "/input"}>
+          Input
+        </Button>
       </Link>
       <Link to="/picker">
-        <Button selected={page === "/picker"}>Picker</Button>
+        <Button onClick={toggleDrawer} selected={page === "/picker"}>
+          Picker
+        </Button>
       </Link>
       <Link to="/radio-button">
-        <Button selected={page === "/radio-button"}>Radio Button</Button>
+        <Button onClick={toggleDrawer} selected={page === "/radio-button"}>
+          Radio Button
+        </Button>
       </Link>
       <Link to="/slider">
-        <Button selected={page === "/slider"}>Slider</Button>
+        <Button onClick={toggleDrawer} selected={page === "/slider"}>
+          Slider
+        </Button>
       </Link>
       <Link to="/switch">
-        <Button selected={page === "/switch"}>Switch</Button>
+        <Button onClick={toggleDrawer} selected={page === "/switch"}>
+          Switch
+        </Button>
       </Link>
       <Link to="/tag">
-        <Button selected={page === "/tag"}>Tag</Button>
+        <Button onClick={toggleDrawer} selected={page === "/tag"}>
+          Tag
+        </Button>
       </Link>
       <Link to="/toast">
-        <Button selected={page === "/toast"}>Toast</Button>
+        <Button onClick={toggleDrawer} selected={page === "/toast"}>
+          Toast
+        </Button>
       </Link>
       <div className="subtitle">Functions</div>
       <Link to="/hex-to-rgba">
-        <Button selected={page === "/hex-to-rgba"}>Hex to RGBA</Button>
+        <Button onClick={toggleDrawer} selected={page === "/hex-to-rgba"}>
+          Hex to RGBA
+        </Button>
       </Link>
       <Link to="/normalize">
-        <Button selected={page === "/normalize"}>Noramalize</Button>
+        <Button onClick={toggleDrawer} selected={page === "/normalize"}>
+          Noramalize
+        </Button>
       </Link>
     </Container>
   );

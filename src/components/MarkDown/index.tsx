@@ -35,6 +35,11 @@ const Container = styled.div`
     border: 1px solid #ccc;
     padding: 5px;
   }
+  @media (max-width: 1000px) {
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export const MarkDown = ({ children }: ReactMarkdownOptions) => {

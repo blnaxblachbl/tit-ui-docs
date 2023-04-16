@@ -16,7 +16,7 @@ const MainPage = () => {
         tit-ui is a simple library that contains a set of UI components,
         functions and Form creating functionality.
       </p>
-      <span>
+      {/* <span>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -26,7 +26,7 @@ const MainPage = () => {
         of Letraset sheets containing Lorem Ipsum passages, and more recently
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
-      </span>
+      </span> */}
     </Container>
   );
 };

@@ -38,7 +38,7 @@ export const Manu = ({ toggleDrawer }: MenuProps) => {
     <Container>
       <div className="subtitle">General</div>
       <Link to="/">
-        <Button onClick={toggleDrawer} selected={page === ""}>
+        <Button onClick={toggleDrawer} selected={page === "" || page === "/"}>
           Introduction
         </Button>
       </Link>

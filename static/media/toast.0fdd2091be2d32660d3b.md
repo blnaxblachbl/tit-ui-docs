@@ -121,8 +121,7 @@ return (
     <Toast
       maxToShow={4}
       duration={2000}
-      themes={{
-        mySuccess: {
+      themes={{mySuccess: {
           style: {
             backgroundColor: "#1fb141",
             elevation: 0,
@@ -139,8 +138,7 @@ return (
           },
           titleStyle: {color: "white"},
           textStyle: {color: "white"},
-        },
-      }}
+      }}}
     />
   </Provider>
 );

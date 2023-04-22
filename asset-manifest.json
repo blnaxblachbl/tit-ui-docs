@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tit-ui-docs/static/css/main.9a29f72c.css",
-    "main.js": "/tit-ui-docs/static/js/main.d00204f8.js",
+    "main.js": "/tit-ui-docs/static/js/main.2a8ff869.js",
     "index.html": "/tit-ui-docs/index.html",
     "static/media/instalation.md": "/tit-ui-docs/static/media/instalation.9196e6cb34fd60d4630c.md",
     "main.9a29f72c.css.map": "/tit-ui-docs/static/css/main.9a29f72c.css.map",
-    "main.d00204f8.js.map": "/tit-ui-docs/static/js/main.d00204f8.js.map"
+    "main.2a8ff869.js.map": "/tit-ui-docs/static/js/main.2a8ff869.js.map"
   },
   "entrypoints": [
     "static/css/main.9a29f72c.css",
-    "static/js/main.d00204f8.js"
+    "static/js/main.2a8ff869.js"
   ]
 }

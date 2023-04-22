@@ -34,24 +34,23 @@ const MainPage = () => {
       </p>
       <div className="grid">
         <div>
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/avatar.jpg?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/badge.jpg?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/button.png?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/picker.gif?raw=true" />
+          <img alt='tag' src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/tag.jpg?raw=true" />
+          <img alt='slider' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/slider.gif?raw=true" />
+          <img alt='picker' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/picker.gif?raw=true" />
         </div>
-        <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/toasts.gif?raw=true" />
-        <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/image.gif?raw=true" />
+        <img alt='toasts' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/toasts.gif?raw=true" />
+        <img alt='zoom' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/image.gif?raw=true" />
         <div>
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/picker.gif?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/radioButtons.gif?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/slider.gif?raw=true" />
+          <img alt='button' src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/button.png?raw=true" />
+          <img alt='radio' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/radioButtons.gif?raw=true" />
+          <img alt='avatar' src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/avatar.jpg?raw=true" />
+          <img alt='badge' src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/badge.jpg?raw=true" />
         </div>
         <div>
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/switch.gif?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/tag.jpg?raw=true" />
-          <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/provider.jpg?raw=true" />
+          <img alt='switch' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/switch.gif?raw=true" />
+          <img alt='provider' src="https://github.com/blnaxblachbl/tit-ui/blob/main/images/provider.jpg?raw=true" />
         </div>
-        <img src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/flat-list.gif?raw=true" />
+        <img alt='flat-list' src="https://github.com/blnaxblachbl/tit-ui/blob/main/gifs/flat-list.gif?raw=true" />
       </div>
     </Container>
   );

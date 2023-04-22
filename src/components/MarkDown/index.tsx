@@ -25,15 +25,19 @@ const Container = styled.div`
     width: 50%;
     height: 100%;
     object-fit: cover;
+    border: solid 1px whitesmoke;
   }
   table {
-    width: 100%;
+    display: block;
+    max-width: 100%;
     border-collapse: collapse;
+    overflow: scroll;
   }
   th,
   td {
     border: 1px solid #ccc;
-    padding: 5px;
+    padding: 6px;
+    text-align: left;
   }
   @media (max-width: 1000px) {
     img {

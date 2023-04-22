@@ -33,6 +33,7 @@ const Container = styled.header`
     display: none;
   }
   @media (max-width: 1000px) {
+    padding: 0 12px;
     .button {
       display: block;
     }

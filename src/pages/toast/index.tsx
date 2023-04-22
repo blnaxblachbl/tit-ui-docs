@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
-import { MarkDown } from "../../components";
+import { MarkDown, Spinner } from "../../components";
 
 const Container = styled.div`
-  padding: 24px;
-  box-sizing: border-box;
   line-height: 24px;
   text-align: justify;
   max-width: 800px;
@@ -15,12 +13,18 @@ const Toast = () => {
   const [children, setChildren] = useState("");
 
   useEffect(() => {
-    fetch(require("./toast.md"))
+    fetch(
+      "https://raw.githubusercontent.com/blnaxblachbl/tit-ui/main/docs/toast.md"
+    )
       .then((res) => res.text())
       .then((md) => {
         setChildren(md);
       });
   });
+
+  if (!children) {
+    return <Spinner />;
+  }
 
   return (
     <Container>

@@ -16,12 +16,15 @@ const Container = styled.div`
     width: 82%;
     overflow-y: scroll;
     height: calc(100vh - 70px);
+    padding: 24px;
+    box-sizing: border-box;
   }
   @media (max-width: 1000px) {
     .left {
       display: none;
     }
     .right {
+      padding: 12px;
       width: 100%;
     }
   }

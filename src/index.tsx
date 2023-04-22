@@ -8,7 +8,7 @@ import MainPage from "./pages/main";
 import InstalationPage from "./pages/instalation";
 import ProviderPage from "./pages/provider";
 import FormPage from "./pages/form";
-import FormCustomItemPage from "./pages/form/custom-item";
+import FormCustomItemPage from "./pages/custom-form-item";
 import AvatarPage from "./pages/avatar";
 import BadgePage from "./pages/badge";
 import ButtonPage from "./pages/button";
@@ -67,7 +67,7 @@ root.render(
           }
         />
         <Route
-          path="/form/custom-item"
+          path="/custom-form-item"
           element={
             <Layout>
               <FormCustomItemPage />

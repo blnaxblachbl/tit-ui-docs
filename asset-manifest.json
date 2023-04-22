@@ -1,31 +1,14 @@
 {
   "files": {
     "main.css": "/tit-ui-docs/static/css/main.9a29f72c.css",
-    "main.js": "/tit-ui-docs/static/js/main.13bd3b50.js",
-    "static/media/toast.md": "/tit-ui-docs/static/media/toast.4f433052a9d58f599b4e.md",
-    "static/media/form.md": "/tit-ui-docs/static/media/form.3e5acd180aa864502fc7.md",
-    "static/media/picker.md": "/tit-ui-docs/static/media/picker.97ac46e5c76d303af747.md",
-    "static/media/switch.md": "/tit-ui-docs/static/media/switch.b0408f750507ab5afe78.md",
-    "static/media/slider.md": "/tit-ui-docs/static/media/slider.e4a04bc59a7c3f009a3f.md",
-    "static/media/radio.md": "/tit-ui-docs/static/media/radio.ab60d1d77d42588b88b3.md",
-    "static/media/custom-item.md": "/tit-ui-docs/static/media/custom-item.3ffe060aa4c812e4b8d8.md",
-    "static/media/avatar.md": "/tit-ui-docs/static/media/avatar.5a2635c72bbe6c1562cb.md",
-    "static/media/provider.md": "/tit-ui-docs/static/media/provider.8fec52aab8d273c387aa.md",
-    "static/media/input.md": "/tit-ui-docs/static/media/input.966cfcfdf1c82e2e966f.md",
-    "static/media/tag.md": "/tit-ui-docs/static/media/tag.1f9d846b6db9437733e4.md",
-    "static/media/flatlist.md": "/tit-ui-docs/static/media/flatlist.ff52df675ab3b62d944f.md",
+    "main.js": "/tit-ui-docs/static/js/main.d00204f8.js",
     "index.html": "/tit-ui-docs/index.html",
-    "static/media/image.md": "/tit-ui-docs/static/media/image.a16be8294b018c89ec96.md",
-    "static/media/badge.md": "/tit-ui-docs/static/media/badge.37950fa6ed9dee0e7349.md",
-    "static/media/button.md": "/tit-ui-docs/static/media/button.fceaf01cfdbc754ec6d8.md",
-    "static/media/normalize.md": "/tit-ui-docs/static/media/normalize.ebde6904104b9042726f.md",
-    "static/media/hexToRgba.md": "/tit-ui-docs/static/media/hexToRgba.2fea20d56f27e2628db6.md",
     "static/media/instalation.md": "/tit-ui-docs/static/media/instalation.9196e6cb34fd60d4630c.md",
     "main.9a29f72c.css.map": "/tit-ui-docs/static/css/main.9a29f72c.css.map",
-    "main.13bd3b50.js.map": "/tit-ui-docs/static/js/main.13bd3b50.js.map"
+    "main.d00204f8.js.map": "/tit-ui-docs/static/js/main.d00204f8.js.map"
   },
   "entrypoints": [
     "static/css/main.9a29f72c.css",
-    "static/js/main.13bd3b50.js"
+    "static/js/main.d00204f8.js"
   ]
 }

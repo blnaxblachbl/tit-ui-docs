@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import styled from "styled-components";
+import { Navigate } from "react-router-dom";
 
 import { Manu } from "../Menu";
 import { LayoutProps } from "./types";
+
+import { useRouteQuery } from "../../utils/hooks";
 
 const Container = styled.div`
   display: flex;
@@ -31,6 +35,12 @@ const Container = styled.div`
 `;
 
 export const Layout = ({ children }: LayoutProps) => {
+  const { page } = useRouteQuery();
+
+  if (page) {
+    return <Navigate to={`/${page}`} />;
+  }
+
   return (
     <Container>
       <div className="left">

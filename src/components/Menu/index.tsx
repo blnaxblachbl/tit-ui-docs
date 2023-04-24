@@ -32,7 +32,7 @@ const Button = styled.div<ButtonProps>`
 `;
 
 export const Manu = ({ toggleDrawer }: MenuProps) => {
-  const page = window.location.pathname.replace("/tit-ui-docs", "");
+  const page = window.location.pathname.replace("/docs", "");
 
   return (
     <Container>

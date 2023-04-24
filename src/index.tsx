@@ -31,7 +31,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router basename="/tit-ui-docs">
+    <Router basename="/docs">
       <Header />
       <Routes>
         <Route

@@ -20,7 +20,7 @@ const Avatar = () => {
       .then((md) => {
         setChildren(md);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

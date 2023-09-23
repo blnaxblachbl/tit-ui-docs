@@ -20,7 +20,7 @@ const FlatList = () => {
       .then((md) => {
         setChildren(md);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

@@ -20,7 +20,7 @@ const FormCustomItem = () => {
       .then((md) => {
         setChildren(md);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

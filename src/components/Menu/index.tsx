@@ -129,6 +129,12 @@ export const Manu = ({ toggleDrawer }: MenuProps) => {
           Noramalize
         </Button>
       </Link>
+      <div className="subtitle">Theme</div>
+      <Link to="/themes">
+        <Button onClick={toggleDrawer} selected={page === "/themes"}>
+          Themes
+        </Button>
+      </Link>
     </Container>
   );
 };

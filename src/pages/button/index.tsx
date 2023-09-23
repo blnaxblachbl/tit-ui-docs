@@ -20,7 +20,7 @@ const Button = () => {
       .then((md) => {
         setChildren(md);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

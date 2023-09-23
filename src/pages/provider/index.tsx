@@ -23,7 +23,7 @@ const Provider = () => {
       .catch((e) => {
         console.error(e);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

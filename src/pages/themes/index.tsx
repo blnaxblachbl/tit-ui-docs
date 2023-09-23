@@ -9,15 +9,16 @@ const Container = styled.div`
   max-width: 800px;
 `;
 
-const Switch = () => {
+const Themes = () => {
   const [children, setChildren] = useState("");
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/blnaxblachbl/tit-ui/main/docs/switch.md"
+      "https://raw.githubusercontent.com/blnaxblachbl/tit-ui/main/docs/themes.md"
     )
       .then((res) => res.text())
       .then((md) => {
+        console.log(md);
         setChildren(md);
       });
   }, []);
@@ -33,4 +34,4 @@ const Switch = () => {
   );
 };
 
-export default Switch;
+export default Themes;

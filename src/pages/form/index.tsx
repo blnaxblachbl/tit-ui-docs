@@ -20,7 +20,7 @@ const Form = () => {
       .then((md) => {
         setChildren(md);
       });
-  });
+  }, []);
 
   if (!children) {
     return <Spinner />;

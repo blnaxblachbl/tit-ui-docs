@@ -23,6 +23,7 @@ import TagPage from "./pages/tag";
 import ToastPage from "./pages/toast";
 import HexToRgbaPage from "./pages/hexToRgba";
 import NormalizePage from "./pages/normalize";
+import ThemesPage from "./pages/themes";
 
 import "react-modern-drawer/dist/index.css";
 
@@ -183,6 +184,14 @@ root.render(
           element={
             <Layout>
               <NormalizePage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/themes"
+          element={
+            <Layout>
+              <ThemesPage />
             </Layout>
           }
         />

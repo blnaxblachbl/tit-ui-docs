@@ -53,11 +53,6 @@ export const Manu = ({ toggleDrawer }: MenuProps) => {
           Provider
         </Button>
       </Link>
-      <Link to="/form">
-        <Button onClick={toggleDrawer} selected={page.includes("/form")}>
-          Form
-        </Button>
-      </Link>
       <Link to="/avatar">
         <Button onClick={toggleDrawer} selected={page === "/avatar"}>
           Avatar
@@ -71,11 +66,6 @@ export const Manu = ({ toggleDrawer }: MenuProps) => {
       <Link to="/button">
         <Button onClick={toggleDrawer} selected={page === "/button"}>
           Button
-        </Button>
-      </Link>
-      <Link to="/flatlist">
-        <Button onClick={toggleDrawer} selected={page === "/flatlist"}>
-          FlatList
         </Button>
       </Link>
       <Link to="/image">

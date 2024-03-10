@@ -24,6 +24,7 @@ import ToastPage from "./pages/toast";
 import HexToRgbaPage from "./pages/hexToRgba";
 import NormalizePage from "./pages/normalize";
 import ThemesPage from "./pages/themes";
+import StylesPage from "./pages/styles";
 
 import "react-modern-drawer/dist/index.css";
 
@@ -192,6 +193,14 @@ root.render(
           element={
             <Layout>
               <ThemesPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/styles"
+          element={
+            <Layout>
+              <StylesPage />
             </Layout>
           }
         />

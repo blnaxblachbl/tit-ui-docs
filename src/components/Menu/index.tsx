@@ -135,6 +135,12 @@ export const Manu = ({ toggleDrawer }: MenuProps) => {
           Themes
         </Button>
       </Link>
+      <div className="subtitle">Hooks</div>
+      <Link to="/styles">
+        <Button onClick={toggleDrawer} selected={page === "/styles"}>
+          Styles in Props
+        </Button>
+      </Link>
     </Container>
   );
 };

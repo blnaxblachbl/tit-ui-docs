@@ -13,7 +13,7 @@ const Instalation = () => {
   const [children, setChildren] = useState("");
 
   useEffect(() => {
-    fetch(require("./instalation.md"))
+    fetch("./docs/instalation.md")
       .then((res) => res.text())
       .then((md) => {
         setChildren(md);

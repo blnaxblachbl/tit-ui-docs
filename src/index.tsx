@@ -33,7 +33,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router basename="/docs">
+    <Router>
       <Header />
       <Routes>
         <Route
